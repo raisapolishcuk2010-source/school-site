@@ -60,7 +60,7 @@ nav a{
 
     font-weight:600;
 
-    transition:0.3s;
+    transition:1s;
 
     padding:10px 18px;
 
@@ -97,7 +97,7 @@ nav a:hover{
 
     box-shadow:0 8px 30px rgba(0,0,0,0.35);
 
-    transition:0.4s;
+    transition:1s;
 }
 
 .card:hover{
@@ -126,13 +126,18 @@ p, li{
 /* Фото */
 
 img{
-    width:80%;
+       
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+    width:50%;
 
     border-radius:20px;
 
     margin-top:20px;
 
-    transition:0.4s;
+    transition:1.4s;
 }
 
 img:hover{
